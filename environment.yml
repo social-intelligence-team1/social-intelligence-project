@@ -1,0 +1,20 @@
+name: social-intelligence
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - geopandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - ipykernel
+  - ipython
+  - folium
+  - networkx
+  - statsmodels
+  - pip:
+    - kagglehub
+    - geodatasets
