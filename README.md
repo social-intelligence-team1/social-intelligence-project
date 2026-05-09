@@ -4,7 +4,7 @@
 ## TODO
 ### 데이터 분석
 - [ ] illegal_pariking.csv 분석
-- [ ] parking_lot.csv 분석     
+- [x] parking_lot.csv 분석     
 
 
 ## 데이터
