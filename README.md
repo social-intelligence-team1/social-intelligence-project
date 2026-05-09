@@ -1,55 +1,35 @@
-# python-project-template
+# 소셜 인텔리전스 프로젝트
+## 공영 주차장과 불법 주정차의 상관관계 분석 및 대안 마련
 
-## Goal
+## TODO
+### 데이터 분석
+- [] illegal_pariking.csv 분석
+- [] parking_lot.csv 분석     
 
-Python 프로젝트를 생성할 때 빠르게 작성할 수 있도록 도움
 
-## Setup
+## 데이터
+- [parking_lot.csv(주차장 현황)](https://www2.sejong.go.kr/bigdata/metaDataDetailView.do)
+- [illegal_parking.csv(불법주정차 현황)](https://www.data.go.kr/data/15135364/fileData.do)
 
-### macOS
-
-#### Create Venv
-
+## 환경 설정
+### MacOS
 ```bash
+# Create Venv
 python<version> -m venv venv
-```
 
-#### Manage Venv Status
-
-```bash
-# Activate Venv
+# Acitvate Venv
 source venv/bin/activate
 
-# Deactivate Venv
-deactivate
-```
-
-#### Install Libraries
-
-```bash
+# Installation Libraries
 pip install -r requirements.txt
-```
-
-### Windows
-
-#### Create Venv
-
-```bash
-python -m venv venv
-```
-
-#### Manage Venv Status
-
-```bash
-# Activate Venv
-.\venv\Scripts\activate
 
 # Deactivate Venv
 deactivate
 ```
 
-#### Install Libraries
-
+### Conda
 ```bash
-pip install -r requirements.txt
+# Create Venv
+conda env create -f environment.yml
 ```
+
