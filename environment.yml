@@ -6,6 +6,8 @@ dependencies:
   - python=3.12
   - numpy
   - pandas
+  - scipy
+  - openpyxl
   - geopandas
   - matplotlib
   - seaborn
