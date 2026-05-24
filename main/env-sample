@@ -1,1 +1,4 @@
-API_KEY='your-api-key'
+# 도로명주소 포털 API 키
+JSUO_API_KEY='your-juso-api-key'
+# 공공데이터포털 API 키
+DATA_API_KEY='your-data-api-key'
