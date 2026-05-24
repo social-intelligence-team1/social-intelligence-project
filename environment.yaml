@@ -1,4 +1,4 @@
-name: social-intelligence
+name: si
 channels:
   - conda-forge
   - defaults
@@ -17,6 +17,8 @@ dependencies:
   - folium
   - networkx
   - statsmodels
+  - python-dotenv
+  - pip
   - pip:
     - kagglehub
     - geodatasets
