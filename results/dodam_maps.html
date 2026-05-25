@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dbf71c906b3a300a8b3a0bebfb9533f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dbf71c906b3a300a8b3a0bebfb9533f1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dbf71c906b3a300a8b3a0bebfb9533f1 = L.map(
+                "map_dbf71c906b3a300a8b3a0bebfb9533f1",
+                {
+                    center: [36.5142496577663, 127.261329157226],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_838ca5068526b5e837f6329882e26177 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_838ca5068526b5e837f6329882e26177.addTo(map_dbf71c906b3a300a8b3a0bebfb9533f1);
+        
+    
+            var circle_marker_f6f6d0a00d14f4e151844393bc8e3c1c = L.circleMarker(
+                [36.5143054345153, 127.258602129546],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 79.0, "stroke": true, "weight": 3}
+            ).addTo(map_dbf71c906b3a300a8b3a0bebfb9533f1);
+        
+    
+        var popup_f3893b902376953ded66d881e8555b86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d9e2c66b242c573a86848922d960b1e = $(`<div id="html_6d9e2c66b242c573a86848922d960b1e" style="width: 100.0%; height: 100.0%;">도담동 먹자골목인근<br><b>단속건수:</b> 1580건</div>`)[0];
+                popup_f3893b902376953ded66d881e8555b86.setContent(html_6d9e2c66b242c573a86848922d960b1e);
+            
+        
+
+        circle_marker_f6f6d0a00d14f4e151844393bc8e3c1c.bindPopup(popup_f3893b902376953ded66d881e8555b86)
+        ;
+
+        
+    
+    
+            var circle_marker_c20657fbd65fa7f6093ce2f069197e1a = L.circleMarker(
+                [36.515523, 127.2618168],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.55, "stroke": true, "weight": 3}
+            ).addTo(map_dbf71c906b3a300a8b3a0bebfb9533f1);
+        
+    
+        var popup_7b5b700b5c87c5bee04aa32bdc5fa3c7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4404418612cf9b85fb8d5aa31e4a348e = $(`<div id="html_4404418612cf9b85fb8d5aa31e4a348e" style="width: 100.0%; height: 100.0%;">도담복컴주변<br><b>단속건수:</b> 611건</div>`)[0];
+                popup_7b5b700b5c87c5bee04aa32bdc5fa3c7.setContent(html_4404418612cf9b85fb8d5aa31e4a348e);
+            
+        
+
+        circle_marker_c20657fbd65fa7f6093ce2f069197e1a.bindPopup(popup_7b5b700b5c87c5bee04aa32bdc5fa3c7)
+        ;
+
+        
+    
+    
+            var circle_marker_082798d7aa2c915ca5f91b507bb9b59e = L.circleMarker(
+                [36.5178442, 127.2558658],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.8, "stroke": true, "weight": 3}
+            ).addTo(map_dbf71c906b3a300a8b3a0bebfb9533f1);
+        
+    
+        var popup_9cc555540340edd8d339261b258ace55 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1047315d6e66621318016ed2a82f6b1d = $(`<div id="html_1047315d6e66621318016ed2a82f6b1d" style="width: 100.0%; height: 100.0%;">도담동 도담서4길<br><b>단속건수:</b> 516건</div>`)[0];
+                popup_9cc555540340edd8d339261b258ace55.setContent(html_1047315d6e66621318016ed2a82f6b1d);
+            
+        
+
+        circle_marker_082798d7aa2c915ca5f91b507bb9b59e.bindPopup(popup_9cc555540340edd8d339261b258ace55)
+        ;
+
+        
+    
+    
+            var circle_marker_ebac601da61b8c49ff78a46eb6997af2 = L.circleMarker(
+                [36.5094908, 127.2689048],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.600000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_dbf71c906b3a300a8b3a0bebfb9533f1);
+        
+    
+        var popup_ff7d1999c558c6793394961215df9dd3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f822e9bed43dcbfdf3613cb5b8aac845 = $(`<div id="html_f822e9bed43dcbfdf3613cb5b8aac845" style="width: 100.0%; height: 100.0%;">양지고등학교 삼거리<br><b>단속건수:</b> 212건</div>`)[0];
+                popup_ff7d1999c558c6793394961215df9dd3.setContent(html_f822e9bed43dcbfdf3613cb5b8aac845);
+            
+        
+
+        circle_marker_ebac601da61b8c49ff78a46eb6997af2.bindPopup(popup_ff7d1999c558c6793394961215df9dd3)
+        ;
+
+        
+    
+    
+            var circle_marker_de4a5cd6d18ec872d2a331f3930c4e41 = L.circleMarker(
+                [36.5183771731292, 127.260397855502],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.200000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_dbf71c906b3a300a8b3a0bebfb9533f1);
+        
+    
+        var popup_4f33540a9ecac160db09bfe05af52fd9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_092a7ab3a17f1f5c13306c2e68a97a3b = $(`<div id="html_092a7ab3a17f1f5c13306c2e68a97a3b" style="width: 100.0%; height: 100.0%;">양지초등학교<br><b>단속건수:</b> 204건</div>`)[0];
+                popup_4f33540a9ecac160db09bfe05af52fd9.setContent(html_092a7ab3a17f1f5c13306c2e68a97a3b);
+            
+        
+
+        circle_marker_de4a5cd6d18ec872d2a331f3930c4e41.bindPopup(popup_4f33540a9ecac160db09bfe05af52fd9)
+        ;
+
+        
+    
+</script>
+</html>

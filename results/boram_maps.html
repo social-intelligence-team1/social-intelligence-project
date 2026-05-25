@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cb01b89e653b53a5a826cfaafc916d46 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cb01b89e653b53a5a826cfaafc916d46" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cb01b89e653b53a5a826cfaafc916d46 = L.map(
+                "map_cb01b89e653b53a5a826cfaafc916d46",
+                {
+                    center: [36.4779220963336, 127.291361060307],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2ac608e82e545d46fbfaba52baa545c5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2ac608e82e545d46fbfaba52baa545c5.addTo(map_cb01b89e653b53a5a826cfaafc916d46);
+        
+    
+            var circle_marker_4c08dc8c7e59a3c6363479948b9f0357 = L.circleMarker(
+                [36.4756911625585, 127.288776593893],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 46.150000000000006, "stroke": true, "weight": 3}
+            ).addTo(map_cb01b89e653b53a5a826cfaafc916d46);
+        
+    
+        var popup_d9250e498ed0ee689eb4c9b1986a7274 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aa5a75b84aa01e1b7d456bdfb1086008 = $(`<div id="html_aa5a75b84aa01e1b7d456bdfb1086008" style="width: 100.0%; height: 100.0%;">호려울마을4단지앞사거리<br><b>단속건수:</b> 923건</div>`)[0];
+                popup_d9250e498ed0ee689eb4c9b1986a7274.setContent(html_aa5a75b84aa01e1b7d456bdfb1086008);
+            
+        
+
+        circle_marker_4c08dc8c7e59a3c6363479948b9f0357.bindPopup(popup_d9250e498ed0ee689eb4c9b1986a7274)
+        ;
+
+        
+    
+    
+            var circle_marker_18c2948b21288fca00d8236fb9d657f7 = L.circleMarker(
+                [36.4796639273676, 127.286041678744],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.55, "stroke": true, "weight": 3}
+            ).addTo(map_cb01b89e653b53a5a826cfaafc916d46);
+        
+    
+        var popup_32397a14e01645e19e09efd12970fe8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7f8bd6c2fd02fedf5d67abf46171fcfb = $(`<div id="html_7f8bd6c2fd02fedf5d67abf46171fcfb" style="width: 100.0%; height: 100.0%;">세종교육청앞삼거리<br><b>단속건수:</b> 611건</div>`)[0];
+                popup_32397a14e01645e19e09efd12970fe8f.setContent(html_7f8bd6c2fd02fedf5d67abf46171fcfb);
+            
+        
+
+        circle_marker_18c2948b21288fca00d8236fb9d657f7.bindPopup(popup_32397a14e01645e19e09efd12970fe8f)
+        ;
+
+        
+    
+    
+            var circle_marker_6fd282576030e5b3dc75b6fa1f645071 = L.circleMarker(
+                [36.4787369772013, 127.297005294865],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.6, "stroke": true, "weight": 3}
+            ).addTo(map_cb01b89e653b53a5a826cfaafc916d46);
+        
+    
+        var popup_2c9c08325077479f0f0c2c7d5dfc69de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8020e47766435e161326054e60f1ec0e = $(`<div id="html_8020e47766435e161326054e60f1ec0e" style="width: 100.0%; height: 100.0%;">호려울마을8-9단지사거리<br><b>단속건수:</b> 432건</div>`)[0];
+                popup_2c9c08325077479f0f0c2c7d5dfc69de.setContent(html_8020e47766435e161326054e60f1ec0e);
+            
+        
+
+        circle_marker_6fd282576030e5b3dc75b6fa1f645071.bindPopup(popup_2c9c08325077479f0f0c2c7d5dfc69de)
+        ;
+
+        
+    
+    
+            var circle_marker_2908afd151d2f90fef844755688b0b98 = L.circleMarker(
+                [36.4780567063485, 127.288440010959],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.55, "stroke": true, "weight": 3}
+            ).addTo(map_cb01b89e653b53a5a826cfaafc916d46);
+        
+    
+        var popup_f1d7c8157ffe95b2893c51788b3c9b16 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_78fa37f29e27651b3807c09b4606ead2 = $(`<div id="html_78fa37f29e27651b3807c09b4606ead2" style="width: 100.0%; height: 100.0%;">보람동 금강시티타워 사<br><b>단속건수:</b> 311건</div>`)[0];
+                popup_f1d7c8157ffe95b2893c51788b3c9b16.setContent(html_78fa37f29e27651b3807c09b4606ead2);
+            
+        
+
+        circle_marker_2908afd151d2f90fef844755688b0b98.bindPopup(popup_f1d7c8157ffe95b2893c51788b3c9b16)
+        ;
+
+        
+    
+    
+            var circle_marker_8f113fb9a4b0a87483c617c656c71366 = L.circleMarker(
+                [36.4777868098303, 127.291001023963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 3}
+            ).addTo(map_cb01b89e653b53a5a826cfaafc916d46);
+        
+    
+        var popup_cd403e281f228b0896c0361ad5e3bc73 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f2d21f2b9ca502cffaf6c5a5f911fcb = $(`<div id="html_3f2d21f2b9ca502cffaf6c5a5f911fcb" style="width: 100.0%; height: 100.0%;">보람지구대 사거리<br><b>단속건수:</b> 300건</div>`)[0];
+                popup_cd403e281f228b0896c0361ad5e3bc73.setContent(html_3f2d21f2b9ca502cffaf6c5a5f911fcb);
+            
+        
+
+        circle_marker_8f113fb9a4b0a87483c617c656c71366.bindPopup(popup_cd403e281f228b0896c0361ad5e3bc73)
+        ;
+
+        
+    
+</script>
+</html>
