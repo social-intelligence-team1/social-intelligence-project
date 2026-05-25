@@ -1,15 +1,9 @@
 # 소셜 인텔리전스 프로젝트
 ## 공영 주차장과 불법 주정차의 상관관계 분석 및 대안 마련
 
-## TODO
-### 데이터 분석
-- [x] illegal_pariking.csv 분석
-- [x] parking_lot.csv 분석     
-
-
-## 데이터
-- [parking_lot.csv(주차장 현황)](https://www2.sejong.go.kr/bigdata/metaDataDetailView.do)
-- [illegal_parking.csv(불법주정차 현황)](https://www.data.go.kr/data/15135364/fileData.do)
+## 활용 데이터
+- [세종특별자치시_주차장정보.csv](https://www2.sejong.go.kr/bigdata/metaDataDetailView.do)
+- [세종특별자치시_불법주정차 단속현황_20250731.csv](https://www.data.go.kr/data/15135364/fileData.do)
 
 ## 환경 설정
 ### MacOS
