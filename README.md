@@ -1,5 +1,5 @@
 # 소셜 인텔리전스 프로젝트
-## 공영 주차장과 불법 주정차의 상관관계 분석 및 대안 마련
+## 세종특별자치시 불법주정차 현황 및 대응 정책 마련
 
 ## 활용 데이터
 - [세종특별자치시_주차장정보.csv](https://www2.sejong.go.kr/bigdata/metaDataDetailView.do)
